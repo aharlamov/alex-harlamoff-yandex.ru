@@ -6,7 +6,12 @@
     <meta http-equiv= "refresh" content="10">
     <title>Homework</title>
     <style>
-        .line {display: flex;}
+        .line {display: flex;
+            justify-content: center;
+            height: 300px;
+            align-items: center;
+        }
+
         .div1 {
             width: 150px;
             height: 150px;
@@ -32,6 +37,25 @@
             margin-left: 16px;
             border-radius: 5%;
         }
+        .font {
+            font-style: italic;
+            background-color: lightseagreen;
+        }
+        .fontcol {
+            color: blue;
+            font-size: 35px;
+            text-shadow: rosybrown;
+            font-stretch: inherit;
+        }
+        .fontbl {
+           text-decoration: line-through; 
+           color: red;
+        }
+        .link {
+            color: red;
+            font-size: 35px;
+            margin-left: 500px;
+        }
     </style>
 </head>
 <body>
@@ -50,6 +74,11 @@
                 vspace="16px" 
                 aligan="middle">
     </a>
-    <STROng>Сегодня отличный день, </STROng><em>утром было тепло и солнечно,</em> <strong><em>но потом пошел дождь</em></strong> <ins><i> и стало довольно холодно</i></ins> 
+    <p>
+        <span class="font">Сегодня отличная погода</span>
+        <span class="fontcol">идет снег и совсем нет ветра,</span>
+        <span class="fontbl">сугробы выше крыши</span>
+    </p>
+    <div class="link"><p><a href="https://yandex.ru" target="_blank">Яндекс></a></p></div>
 </body>
 </html>
