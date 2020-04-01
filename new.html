@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .line {
+            display: flex;
+            justify-content:space-around;
+            flex-direction: column;
+            height: 600px;
+            width: 600px;
+            background-color: red;
+        }
+        .square1 {
+            height: 200px;
+            width: 200px;
+            background-color: sienna;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        .square2 {
+            height: 100px;
+            width: 100px;
+            background-color: skyblue;
+        }
+        .round1 {
+            height: 200px;
+            width: 200px;
+            background-color: sienna; 
+            border-radius: 50%; 
+        }
+        .round2 {
+            height: 100px;
+            width: 100px;
+            background-color: skyblue;
+            border-radius: 50%; 
+        }
+        .perenos {
+            display: flex;
+            justify-content: space-between;
+        }
+        .perenos2 {
+            display: flex;
+            justify-content: space-around;
+        }
+        .perenos3 {
+          display: flex;
+          align-items: center;
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="line">
+                <div class="perenos">
+                    <div class="square1"><div class="perenos3"><div class="square2"></div></div></div>
+                    <div class="square1"><div class="square2"></div></div>
+                </div>
+                <div class="perenos2">
+                    <div class="round1"><div class="perenos3"><div class="round2"></div></div></div>
+                    <div class="round1"><div class="round2"></div></div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
