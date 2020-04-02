@@ -23,7 +23,7 @@
         }
         .container {
             display: flex;
-            justify-content: center;
+            justify-content: space-around;            
         }
         .square2 {
             height: 100px;
@@ -63,7 +63,8 @@
         }
         .container2 {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
+            margin-top: 24px;
         }
         .square3 {
             display: flex;
@@ -97,10 +98,46 @@
             background-color: palegoldenrod;
             margin: 4px;
         }
+        .shape {
+            width: 300px;
+            background-color: chartreuse;
+            padding: 16px;
+            border-radius: 5%;
+        }
+        .input {
+            height: 32px;
+            width: 100%;
+            background-color: purple;
+            border-radius: 5%;
+        }
+        .input2 {
+            height: 32px;
+            width: 100%;
+            background-color: purple;
+            margin-top: 8px;
+            border-radius: 5%;
+        }
+        .input3 {
+            padding: 8px;
+            margin-top: 16px;
+            margin-left: 10px;
+            background-color: skyblue;
+            border-radius: 5%;
+        }
+        .input4 {
+            padding: 8px;
+            margin-top: 16px;
+            margin-left: 20px;
+            background-color: blue;
+            border-radius: 5%;
+        }
+        .buttoms {
+            display: flex;
+            margin-left: 58px;
+        }
         </style>
 </head>
 <body>
-    <div class="contener2">
         <div class="container">
             <div class="line">
                 <div class="perenos">
@@ -126,7 +163,17 @@
                     </div>
                 </div>
             </div>
+        </div> 
+        <div class="container2">
+            <div class="shape">
+                <div class="input">Input 1</div>
+                <div class="input2">Input 2</div>
+                <div class="input2">Input 3</div>
+                <div class="buttoms">
+                <div class="input3">Cansel button</div>
+                <div class="input4">Submit button</div>
+                </div>
+            </div>
         </div>
-    </div>
 </body>
 </html>
