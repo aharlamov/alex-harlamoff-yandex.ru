@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            margin: 0;
+        }
         .line {
             display: flex;
             justify-content:space-around;
@@ -23,7 +26,8 @@
         }
         .container {
             display: flex;
-            justify-content: space-around;            
+            justify-content: space-around; 
+            margin-top: 16px;           
         }
         .square2 {
             height: 100px;
@@ -133,9 +137,31 @@
             margin-left: 58px;
             margin-top: 16px;
         }
+        .menu {
+            display: flex;
+            height: 60px;
+            background-color: rgb(42, 95, 65);
+            justify-content: flex-start;
+        }
+        .link3 {
+            height: 100%;
+            width: 100px;
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .active-link {
+            background-color: blue;
+        }
         </style>
 </head>
 <body>
+    <nav class="menu">
+        <a href="new2.html" class="link3">Страница №1</a>
+        <a href="homework.html" class="link3">Страница №2</a>
+        <a href="new.html" class="link3 active-link">Страница №3</a>                   
+    </nav>
         <div class="container">
             <div class="line">
                 <div class="perenos">

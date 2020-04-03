@@ -23,7 +23,8 @@
         }
         .container {
             display: flex;
-            justify-content: space-around;            
+            justify-content: space-around; 
+            margin-top: 16px;           
         }
         .square2 {
             height: 100px;
@@ -148,9 +149,32 @@
         .text {
             color: blue !important;
         }
+        .menu {
+            display: flex;
+            height: 60px;
+            background-color: rgb(42, 95, 65);
+            justify-content: flex-start;
+        }
+        .link {
+            height: 100%;
+            width: 100px;
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .active-link {
+            background-color: blue;
+        }
         </style>
 </head>
 <body>
+    <nav class="menu">
+        <a href="new2.html" class="link active-link">Страница №1</a>
+        <a href="homework.html" class="link">Страница №2</a>
+        <a href="new.html" class="link">Страница №3</a>                   
+    </nav>
         <div class="container">
             <div class="line">
                 <div class="perenos">
