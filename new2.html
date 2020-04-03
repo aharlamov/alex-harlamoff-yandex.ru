@@ -133,6 +133,21 @@
             margin-left: 58px;
             margin-top: 16px;
         }
+        body {
+            margin: 0;
+        }
+        span {
+            color: red;
+        }
+        .text2 {
+            color: purple;
+        }
+        #text {
+            color: green;
+        }
+        .text {
+            color: blue !important;
+        }
         </style>
 </head>
 <body>
@@ -163,15 +178,16 @@
             </div>
         </div> 
         <div class="container2">
-            <div class="shape">
+            <form class="shape">
                 <input class="input"></input>
                 <input class="input2"></input>
                 <input class="input2"></input>
                 <div class="buttons">
-                <button class="input3">Cansel button</button>
+                <button class="input3" type="button">Cansel button</button>
                 <button class="input4">Submit button</button>
                 </div>
-            </div>
+            </form>
         </div>
+        <span style="color: greenyellow;" id="text" class="text2 text">Hello</span>
 </body>
 </html>
