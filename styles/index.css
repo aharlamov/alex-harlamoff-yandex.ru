@@ -30,3 +30,30 @@ body {
     border-radius: 5%;
     margin-left: 8px;
 }
+.form {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    height: 24px;
+    width: 50px;
+    border-radius: 5%;
+    background-color: blue;
+    margin-left: 8px;
+    color: white;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+table {
+    width: 600px;
+}
+td,th {
+    padding-left: 0px;
+}
+.container3 {
+    display: flex;
+    justify-content: center;
+}
